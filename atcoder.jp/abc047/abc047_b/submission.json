@@ -1,0 +1,12 @@
+{
+	"id": 33327504,
+	"epoch_second": 1658077251,
+	"problem_id": "abc047_b",
+	"contest_id": "abc047",
+	"user_id": "Magavel",
+	"language": "Go (1.14.1)",
+	"point": 200,
+	"length": 1329,
+	"result": "AC",
+	"execution_time": 9
+}
