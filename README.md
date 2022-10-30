@@ -7,7 +7,7 @@ infraディレクトリに移動しDockerイメージをビルドする
 docker build -t procon-gardener .
 ```
 
-Dockerコンテナを起動する
+プロジェクトディレクトリに戻り、Dockerコンテナを起動する
 
 ※コンテナ内の時間をちゃんと合わせないとコミット時間が提出時間とズレる
 ```shell
@@ -32,3 +32,5 @@ vi /root/.procon-gardener/config.json
 ```
 
 ※設定内容については[AtCoderの提出を取得してGitHubの芝を生やすコマンドラインツールを作った](https://qiita.com/togatoga/items/3e8fd0042dc8be702201)を参照する
+
+※config.jsonのrepository_pathには`/go/src/app`を設定する
